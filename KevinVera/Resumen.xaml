@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KevinVera.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Resumen" TextColor="Black" FontSize="24" HorizontalTextAlignment="Center"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Nombre Usuario" Grid.Row="0" Grid.Column="0"/>
+                <Entry x:Name="txtNombreUsuario" Grid.Row="0" Grid.Column="1" IsReadOnly="True" IsEnabled="False"/>
+
+                <Label Text="Nombre Clientes" Grid.Row="1" Grid.Column="0" />
+                <Entry x:Name="txtNombreCliente" Grid.Row="1" Grid.Column="1"  IsReadOnly="True" IsEnabled="False"/>
+
+                <Label Text="Pago Mensual" Grid.Row="2" Grid.Column="0" />
+                <Entry x:Name="txtaPagar" Grid.Row="2" Grid.Column="1" IsReadOnly="True" IsEnabled="False"/>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

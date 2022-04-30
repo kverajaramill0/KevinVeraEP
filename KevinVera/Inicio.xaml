@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KevinVera.Bienvenida">
+    <StackLayout>
+        <Label Text="Desarrollado por :" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Kevin Vera" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Noveno Sistemas" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Universidad Israel" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center"/>
+
+        <Button x:Name="btnIniciar" Text="Iniciar Sistema" Clicked="btnIniciar_Clicked" />
+    </StackLayout>
+
+</ContentPage>
